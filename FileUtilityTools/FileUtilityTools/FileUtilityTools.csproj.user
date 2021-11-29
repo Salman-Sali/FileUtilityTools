@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Presentation\HomeControls\HomeScreenControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation\IndexControls\IndexHomeControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation\IndexControls\SelectionControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation\IndexControls\StartIndexControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Presentation\HomeControls\HomeScreenControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation\IndexControls\IndexHomeControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation\IndexControls\SelectionControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation\IndexControls\StartIndexControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Shell.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
